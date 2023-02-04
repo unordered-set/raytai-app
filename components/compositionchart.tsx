@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function CompositionChart() {
     const [color, setColor] = useState("#61DAFB")
-    const [selectedIndex, setSelectedIndex] = useState(-1);
+    const [selectedIndex, setSelectedIndex] = useState(0);
 
     const weights = [40, 25, 15, 10, 5, 3, 2];
     const coins = ["DOT", "SOL", "BNB", "ONT", "OP", "BTC", "ETH"]
